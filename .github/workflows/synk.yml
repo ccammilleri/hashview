@@ -1,0 +1,11 @@
+name: Snyk scan for vulnerabilities
+on: push
+jobs:
+  security:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Run Snyk to check for vulnerabilities
+      uses: snyk/actions/ruby@master
+      env:
+        SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
