@@ -7,7 +7,7 @@ group :development do
 end
 
 group :test, :development do
-  gem 'factory_girl', '~> 4.9'
+  gem 'factory_girl', '~> 4.9', '>= 4.9.0'
 end
 
 gem 'bcrypt', '~> 3.1', '>= 3.1.12'
