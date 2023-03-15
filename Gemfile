@@ -7,7 +7,7 @@ group :development do
 end
 
 group :test, :development do
-  gem 'factory_girl', '~> 4.9'
+  gem 'factory_girl', '~> 4.9', '>= 4.9.0'
 end
 
 gem 'bcrypt', '~> 3.1', '>= 3.1.12'
@@ -19,11 +19,11 @@ gem 'logger'
 gem 'mysql2', '~> 0.5.1'
 gem 'pony', '~> 1.12'
 gem 'redis', '~> 4.0', '>= 4.0.1'
-gem 'resque', '~> 1.26'
+gem 'resque', '~> 1.27', '>= 1.27.4'
 gem 'resque-scheduler', '~> 4.3', '>= 4.3.1'
 gem 'resque-web', '~> 0.0.12'
 gem 'rest-client', '~> 2.0', '>= 2.0.2'
 gem 'sequel', '~> 5.9'
-gem 'sinatra', '~> 2.0', '>= 2.0.3'
+gem 'sinatra', '~> 2.0', '>= 2.0.4'
 gem 'sinatra-contrib'
 gem 'sinatra-flash', '~> 0.3.0'
